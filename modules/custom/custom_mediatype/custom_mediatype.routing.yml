@@ -1,0 +1,7 @@
+custom_mediatype.simple_form:
+  path: 'mediatype/simple-form'
+  defaults:
+    _form:  '\Drupal\custom_mediatype\Form\SimpleForm'
+    _title: 'Media type form'
+  requirements:
+    _permission: 'access content'

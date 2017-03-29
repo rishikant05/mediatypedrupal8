@@ -1,0 +1,4 @@
+custom_mediatype.simple_form:
+  title: Custom media type form
+  description:Custom media type form.
+  route_name: custom_mediatype.simple_form

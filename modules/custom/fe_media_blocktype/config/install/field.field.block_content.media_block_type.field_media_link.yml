@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_block_type
+    - field.storage.block_content.field_media_link
+  module:
+    - link
+id: block_content.media_block_type.field_media_link
+field_name: field_media_link
+entity_type: block_content
+bundle: media_block_type
+label: 'Media Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_block_type
+    - field.storage.block_content.field_media_title
+id: block_content.media_block_type.field_media_title
+field_name: field_media_title
+entity_type: block_content
+bundle: media_block_type
+label: 'Media Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

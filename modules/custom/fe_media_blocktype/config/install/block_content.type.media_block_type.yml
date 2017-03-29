@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: media_block_type
+label: 'media block type'
+revision: 0
+description: 'this is a media block type'
